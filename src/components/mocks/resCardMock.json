@@ -1,0 +1,97 @@
+{
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    "info": {
+        "id": "120542",
+        "name": "Sweet Heart Restaurant 2",
+        "city": "3",
+        "slugs": {
+            "restaurant": "sweet-heart-restaurant-2-patancheru-patancheru",
+            "city": "hyderabad"
+        },
+        "cloudinaryImageId": "gxfbfuhbzxkbmfqshgy8",
+        "address": "D.No.10/4/1,Muthangi,Patancheru, Sangareddy,Patancharu",
+        "locality": "Patancheruvu",
+        "areaName": "Patancheruvu",
+        "costForTwo": "30000",
+        "costForTwoMessage": "₹300 FOR TWO",
+        "cuisines": [
+            "Biryani",
+            "Chinese",
+            "North Indian"
+        ],
+        "avgRating": 4.1,
+        "feeDetails": {},
+        "avgRatingString": "4.1",
+        "totalRatingsString": "33K+",
+        "promoted": true,
+        "adTrackingId": "cid=5545beb3-f63d-4082-a42e-36a5ff82a26f~p=0~adgrpid=5545beb3-f63d-4082-a42e-36a5ff82a26f#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=120542~plpr=SEARCH#RESTAURANT~st=all restaurants~eid=55e13dae-6447-43e0-b056-73412595e6af~srvts=1752604565546",
+        "sla": {
+            "deliveryTime": 39,
+            "minDeliveryTime": 35,
+            "maxDeliveryTime": 40,
+            "lastMileTravel": 11.4,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "RAIN_MODE_NONE",
+            "slaString": "35-40 MINS",
+            "lastMileTravelString": "11.4 km",
+            "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+            "opened": true,
+            "restaurantClosedMeta": {}
+        },
+        "badges": {},
+        "aggregatedDiscountInfoV3": {
+            "header": "40% OFF",
+            "subHeader": "UPTO ₹80",
+            "logoCtx": {
+                "text": "BENEFITS"
+            }
+        },
+        "ratingSlab": "RATING_SLAB_5",
+        "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {},
+            "commsStyling": {}
+        },
+        "cartOrderabilityNudgeBanner": {
+            "parameters": {},
+            "presentation": {}
+        },
+        "externalRatings": {
+            "aggregatedRating": {
+                "rating": "4.0",
+                "ratingCount": "43K+"
+            },
+            "source": "GOOGLE",
+            "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+        "featuredSectionInfo": {
+            "sectionTitle": "More"
+        },
+        "campaignId": "5545beb3-f63d-4082-a42e-36a5ff82a26f"
+    },
+    "analytics": {
+        "screenName": "explore",
+        "context": "{\"tid\":\"e3e6ec5f-68f6-5ad5-1838-47f31f328297\",\"grid\":\"5cc6b990-7a37-4405-bec8-790db4877ab6\",\"queryUniqueId\":\"75309d6e-4968-271b-a29b-0e339530d0f3\",\"query\":\"all restaurants\",\"adTrackingId\":\"cid=5545beb3-f63d-4082-a42e-36a5ff82a26f~p=0~adgrpid=5545beb3-f63d-4082-a42e-36a5ff82a26f#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=120542~plpr=SEARCH#RESTAURANT~st=all restaurants~eid=55e13dae-6447-43e0-b056-73412595e6af~srvts=1752604565546\"}",
+        "objectValue": "120542",
+        "impressionObjectName": "impression-restaurant-ad",
+        "clickObjectName": "click-restaurant-ad"
+    },
+    "ctaWithParams": {
+        "link": "swiggy://menu",
+        "type": "DEEPLINK",
+        "params": {
+            "query": "all restaurants",
+            "sourceSessionId": "lqo9aef7-bf2a-400a-9a8b-617c416e6381",
+            "source": "SEARCH",
+            "isSld": "false",
+            "sourceRequestId": "68769f95f25f48b6d87b5fe8dec0b34a",
+            "qrEnabled": "false",
+            "restaurant_id": "120542"
+        }
+    }
+}

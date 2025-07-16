@@ -1,0 +1,2563 @@
+const resList=[{
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.Navigation",
+            "tab": [
+              {
+                "id": "RESTAURANT",
+                "title": "Restaurants",
+                "selected": true,
+                "analytics": {
+                  "screenName": "explore",
+                  "context": "{\"tid\":\"e3e6ec5f-68f6-5ad5-1838-47f31f328297\",\"query\":\"all restaurants\"}",
+                  "objectValue": "RESTAURANT",
+                  "clickObjectName": "click-tab"
+                },
+                "selectedBgColor": "#1B1E24",
+                "unselectedBgColor": "#FFFFFF",
+                "selectedTextColor": "#BFFFFFFF",
+                "unselectedTextColor": "#9902060C",
+                "selectedBorderColor": "#1B1E24",
+                "unselectedBorderColor": "#E2E2E7"
+              },
+              {
+                "id": "DISH",
+                "title": "Dishes",
+                "analytics": {
+                  "screenName": "explore",
+                  "context": "{\"tid\":\"e3e6ec5f-68f6-5ad5-1838-47f31f328297\",\"query\":\"all restaurants\"}",
+                  "objectValue": "DISH",
+                  "clickObjectName": "click-tab"
+                },
+                "selectedBgColor": "#1B1E24",
+                "unselectedBgColor": "#FFFFFF",
+                "selectedTextColor": "#BFFFFFFF",
+                "unselectedTextColor": "#9902060C",
+                "selectedBorderColor": "#1B1E24",
+                "unselectedBorderColor": "#E2E2E7"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "RESTAURANT": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "120542",
+                        "name": "Sweet Heart Restaurant 2",
+                        "city": "3",
+                        "slugs": {
+                          "restaurant": "sweet-heart-restaurant-2-patancheru-patancheru",
+                          "city": "hyderabad"
+                        },
+                        "cloudinaryImageId": "gxfbfuhbzxkbmfqshgy8",
+                        "address": "D.No.10/4/1,Muthangi,Patancheru, Sangareddy,Patancharu",
+                        "locality": "Patancheruvu",
+                        "areaName": "Patancheruvu",
+                        "costForTwo": "30000",
+                        "costForTwoMessage": "₹300 FOR TWO",
+                        "cuisines": [
+                          "Biryani",
+                          "Chinese",
+                          "North Indian"
+                        ],
+                        "avgRating": 4.1,
+                        "feeDetails": {
+
+                        },
+                        "avgRatingString": "4.1",
+                        "totalRatingsString": "32K+",
+                        "sla": {
+                          "deliveryTime": 41,
+                          "minDeliveryTime": 40,
+                          "maxDeliveryTime": 45,
+                          "lastMileTravel": 11.4,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "40-45 MINS",
+                          "lastMileTravelString": "11.4 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {
+
+                          }
+                        },
+                        "badges": {
+
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "ITEMS",
+                          "subHeader": "AT ₹79",
+                          "logoCtx": {
+                            "text": "BENEFITS"
+                          }
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "orderabilityCommunication": {
+                          "title": {
+
+                          },
+                          "subTitle": {
+
+                          },
+                          "message": {
+
+                          },
+                          "customIcon": {
+
+                          },
+                          "commsStyling": {
+
+                          }
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {
+
+                          },
+                          "presentation": {
+
+                          }
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "4.0",
+                            "ratingCount": "42K+"
+                          },
+                          "source": "GOOGLE",
+                          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"e3e6ec5f-68f6-5ad5-1838-47f31f328297\",\"grid\":\"cc80b310-afb9-46f7-b1cc-a5e80ccc7fd7\",\"queryUniqueId\":\"75309d6e-4968-271b-a29b-0e339530d0f3\",\"query\":\"all restaurants\"}",
+                        "objectValue": "120542",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "sourceSessionId": "ktja43f5-8dea-4832-9eb2-36b1f8008e75",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "df9a349af2f1e1f52f2adaff8bf9d4dc",
+                          "qrEnabled": "false",
+                          "restaurant_id": "120542",
+                          "query": "all restaurants"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "969943",
+                        "name": "Sri Raghavendra Swamy Restaurant",
+                        "city": "3",
+                        "slugs": {
+                          "restaurant": "sri-raghavendra-swamy-restaurant-sangareddy-sangareddy",
+                          "city": "hyderabad"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/8/e7c3b396-b538-4d7e-adde-f2e8904b682f_969943.jpg",
+                        "address": "Shop No : 10-58 , Floor :  , S ANANTH REDDY COLONY, OPP POLICE  STATION, P , ",
+                        "locality": "SangaReddy",
+                        "areaName": "SangaReddy",
+                        "costForTwo": "20000",
+                        "costForTwoMessage": "₹200 FOR TWO",
+                        "cuisines": [
+                          "Biryani",
+                          "South Indian"
+                        ],
+                        "avgRating": 4.1,
+                        "feeDetails": {
+
+                        },
+                        "avgRatingString": "4.1",
+                        "totalRatingsString": "236",
+                        "sla": {
+                          "deliveryTime": 47,
+                          "minDeliveryTime": 45,
+                          "maxDeliveryTime": 50,
+                          "lastMileTravel": 12.1,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "45-50 MINS",
+                          "lastMileTravelString": "12.1 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {
+
+                          }
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {
+
+                        },
+                        "sld": true,
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "orderabilityCommunication": {
+                          "title": {
+
+                          },
+                          "subTitle": {
+
+                          },
+                          "message": {
+
+                          },
+                          "customIcon": {
+
+                          },
+                          "commsStyling": {
+
+                          }
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {
+
+                          },
+                          "presentation": {
+
+                          }
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"e3e6ec5f-68f6-5ad5-1838-47f31f328297\",\"grid\":\"cc80b310-afb9-46f7-b1cc-a5e80ccc7fd7\",\"queryUniqueId\":\"75309d6e-4968-271b-a29b-0e339530d0f3\",\"query\":\"all restaurants\"}",
+                        "objectValue": "969943",
+                        "impressionObjectName": "impression-restaurant-sld",
+                        "clickObjectName": "click-restaurant-sld"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "isSld": "true",
+                          "sourceRequestId": "df9a349af2f1e1f52f2adaff8bf9d4dc",
+                          "qrEnabled": "false",
+                          "restaurant_id": "969943",
+                          "query": "all restaurants",
+                          "sourceSessionId": "ktja43f5-8dea-4832-9eb2-36b1f8008e75",
+                          "source": "SEARCH"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "1072553",
+                        "name": "Aha Restaurant",
+                        "city": "3",
+                        "slugs": {
+                          "restaurant": "aha-restaurant-patancheru-patancheru",
+                          "city": "hyderabad"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/31/ec0e7c9c-4324-44d9-bbc3-4b83132c2723_1072553.JPG",
+                        "address": "TEJA RAO GUWLLI, H.No/Shop Number 8-56-1 Sys No 241(AA), ISNAPUR X ROAD, BESIDE MARUTHI SHOW ROOM AND ICICI BANK, ISNPAUR, PATANCHERU MANDAL, SANGAREDDY DISTRICT ,,Patancheruv (Except GHMC Area),Sangareddy,Telangana-502307\t",
+                        "locality": "Patancheru",
+                        "areaName": "Patancheru",
+                        "costForTwo": "40000",
+                        "costForTwoMessage": "₹400 FOR TWO",
+                        "cuisines": [
+                          "Chinese",
+                          "Biryani",
+                          "Beverages"
+                        ],
+                        "avgRating": 3.9,
+                        "feeDetails": {
+
+                        },
+                        "avgRatingString": "3.9",
+                        "totalRatingsString": "9",
+                        "sla": {
+                          "deliveryTime": 45,
+                          "minDeliveryTime": 45,
+                          "maxDeliveryTime": 50,
+                          "lastMileTravel": 7.9,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "45-50 MINS",
+                          "lastMileTravelString": "7.9 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {
+
+                          }
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {
+
+                        },
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_4",
+                        "orderabilityCommunication": {
+                          "title": {
+
+                          },
+                          "subTitle": {
+
+                          },
+                          "message": {
+
+                          },
+                          "customIcon": {
+
+                          },
+                          "commsStyling": {
+
+                          }
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {
+
+                          },
+                          "presentation": {
+
+                          }
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"e3e6ec5f-68f6-5ad5-1838-47f31f328297\",\"grid\":\"cc80b310-afb9-46f7-b1cc-a5e80ccc7fd7\",\"queryUniqueId\":\"75309d6e-4968-271b-a29b-0e339530d0f3\",\"query\":\"all restaurants\"}",
+                        "objectValue": "1072553",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "restaurant_id": "1072553",
+                          "query": "all restaurants",
+                          "sourceSessionId": "ktja43f5-8dea-4832-9eb2-36b1f8008e75",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "df9a349af2f1e1f52f2adaff8bf9d4dc",
+                          "qrEnabled": "false"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "209886",
+                        "name": "Abu Zayed Arabian Restaurant",
+                        "city": "3",
+                        "slugs": {
+                          "restaurant": "abu-zayed-arabian-restaurant-sangareddy-sangareddy",
+                          "city": "hyderabad"
+                        },
+                        "cloudinaryImageId": "jy1kxbc9gtujme9hwcle",
+                        "address": "Abu Zayed Bait Al Mandi above Axis Bank ATM",
+                        "locality": "pothireddy pally, X-Road",
+                        "areaName": "Pothreddipalle",
+                        "costForTwo": "30000",
+                        "costForTwoMessage": "₹300 FOR TWO",
+                        "cuisines": [
+                          "Arabian"
+                        ],
+                        "avgRating": 3.9,
+                        "feeDetails": {
+
+                        },
+                        "avgRatingString": "3.9",
+                        "totalRatingsString": "2.0K+",
+                        "sla": {
+                          "deliveryTime": 44,
+                          "minDeliveryTime": 40,
+                          "maxDeliveryTime": 45,
+                          "lastMileTravel": 11.4,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "40-45 MINS",
+                          "lastMileTravelString": "11.4 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextOpenTimeMessage": "Opens next at 12 noon, today",
+                          "restaurantClosedMeta": {
+                            "title": "CLOSED",
+                            "subtitle": "FOR NOW"
+                          }
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {
+
+                        },
+                        "unorderableMessage": "Opens next at 12 noon, today",
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_4",
+                        "availabilityServiceabilityMessage": "Currently closed for delivery. Opens next at 12 noon, today",
+                        "orderabilityCommunication": {
+                          "title": {
+                            "text": "CURRENTLY"
+                          },
+                          "subTitle": {
+                            "text": "CLOSED"
+                          },
+                          "message": {
+                            "text": "Opens today at 12:00 PM",
+                            "textColour": "primary"
+                          },
+                          "customIcon": {
+                            "bgGradientColorStart": "#EB8322",
+                            "bgGradientColorEnd": "#EE5803"
+                          },
+                          "commsStyling": {
+
+                          }
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {
+
+                          },
+                          "presentation": {
+
+                          }
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"e3e6ec5f-68f6-5ad5-1838-47f31f328297\",\"grid\":\"cc80b310-afb9-46f7-b1cc-a5e80ccc7fd7\",\"queryUniqueId\":\"75309d6e-4968-271b-a29b-0e339530d0f3\",\"query\":\"all restaurants\"}",
+                        "objectValue": "209886",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "restaurant_id": "209886",
+                          "query": "all restaurants",
+                          "sourceSessionId": "ktja43f5-8dea-4832-9eb2-36b1f8008e75",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "df9a349af2f1e1f52f2adaff8bf9d4dc",
+                          "qrEnabled": "false"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "119239",
+                        "name": "Spicy Family Dhaba & Restaurant",
+                        "city": "3",
+                        "slugs": {
+                          "restaurant": "spicy-family-dhaba-restaurant-patancheru-patancheru",
+                          "city": "hyderabad"
+                        },
+                        "cloudinaryImageId": "hyr2tvgubyvrmbnlqy9i",
+                        "address": "Nh9, Mumbai Highway, Sangareddy, Patancheru, Hyderabad",
+                        "locality": "Nh9, Mumbai Highway, Sangareddy",
+                        "areaName": "Muthangi",
+                        "costForTwo": "20000",
+                        "costForTwoMessage": "₹200 FOR TWO",
+                        "cuisines": [
+                          "South Indian",
+                          "North Indian",
+                          "Desserts"
+                        ],
+                        "avgRating": 4.1,
+                        "feeDetails": {
+
+                        },
+                        "avgRatingString": "4.1",
+                        "totalRatingsString": "13K+",
+                        "sla": {
+                          "deliveryTime": 40,
+                          "minDeliveryTime": 35,
+                          "maxDeliveryTime": 40,
+                          "lastMileTravel": 8.9,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "35-40 MINS",
+                          "lastMileTravelString": "8.9 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextOpenTimeMessage": "Opens next at 11 am, today",
+                          "restaurantClosedMeta": {
+                            "title": "CLOSED",
+                            "subtitle": "FOR NOW"
+                          }
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {
+
+                        },
+                        "unorderableMessage": "Opens next at 11 am, today",
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "availabilityServiceabilityMessage": "Currently closed for delivery. Opens next at 11 am, today",
+                        "orderabilityCommunication": {
+                          "title": {
+                            "text": "CURRENTLY"
+                          },
+                          "subTitle": {
+                            "text": "CLOSED"
+                          },
+                          "message": {
+                            "text": "Opens today at 11:00 AM",
+                            "textColour": "primary"
+                          },
+                          "customIcon": {
+                            "bgGradientColorStart": "#EB8322",
+                            "bgGradientColorEnd": "#EE5803"
+                          },
+                          "commsStyling": {
+
+                          }
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {
+
+                          },
+                          "presentation": {
+
+                          }
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"e3e6ec5f-68f6-5ad5-1838-47f31f328297\",\"grid\":\"cc80b310-afb9-46f7-b1cc-a5e80ccc7fd7\",\"queryUniqueId\":\"75309d6e-4968-271b-a29b-0e339530d0f3\",\"query\":\"all restaurants\"}",
+                        "objectValue": "119239",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "sourceSessionId": "ktja43f5-8dea-4832-9eb2-36b1f8008e75",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "df9a349af2f1e1f52f2adaff8bf9d4dc",
+                          "qrEnabled": "false",
+                          "restaurant_id": "119239",
+                          "query": "all restaurants"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "229849",
+                        "name": "Krishnatunga Restaurant",
+                        "city": "3",
+                        "slugs": {
+                          "restaurant": "krishnatunga-patancheru-patancheru",
+                          "city": "hyderabad"
+                        },
+                        "cloudinaryImageId": "mw1epfiobzfq0gjip9uf",
+                        "address": "first floor,New Town Colony, Isnapur, Hyderabad, Telangana 502307",
+                        "locality": "Patancheru",
+                        "areaName": "Isnapur",
+                        "costForTwo": "40000",
+                        "costForTwoMessage": "₹400 FOR TWO",
+                        "cuisines": [
+                          "Andhra",
+                          "Biryani",
+                          "Indian",
+                          "Rayalaseema",
+                          "Tandoor"
+                        ],
+                        "avgRating": 4,
+                        "feeDetails": {
+
+                        },
+                        "avgRatingString": "4.0",
+                        "totalRatingsString": "4.1K+",
+                        "sla": {
+                          "deliveryTime": 44,
+                          "minDeliveryTime": 40,
+                          "maxDeliveryTime": 45,
+                          "lastMileTravel": 8.2,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "40-45 MINS",
+                          "lastMileTravelString": "8.2 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextOpenTimeMessage": "Opens next at 11 am, today",
+                          "restaurantClosedMeta": {
+                            "title": "CLOSED",
+                            "subtitle": "FOR NOW"
+                          }
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {
+
+                        },
+                        "unorderableMessage": "Opens next at 11 am, today",
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_4",
+                        "availabilityServiceabilityMessage": "Currently closed for delivery. Opens next at 11 am, today",
+                        "orderabilityCommunication": {
+                          "title": {
+                            "text": "CURRENTLY"
+                          },
+                          "subTitle": {
+                            "text": "CLOSED"
+                          },
+                          "message": {
+                            "text": "Opens today at 11:00 AM",
+                            "textColour": "primary"
+                          },
+                          "customIcon": {
+                            "bgGradientColorStart": "#EB8322",
+                            "bgGradientColorEnd": "#EE5803"
+                          },
+                          "commsStyling": {
+
+                          }
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {
+
+                          },
+                          "presentation": {
+
+                          }
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"e3e6ec5f-68f6-5ad5-1838-47f31f328297\",\"grid\":\"cc80b310-afb9-46f7-b1cc-a5e80ccc7fd7\",\"queryUniqueId\":\"75309d6e-4968-271b-a29b-0e339530d0f3\",\"query\":\"all restaurants\"}",
+                        "objectValue": "229849",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "sourceSessionId": "ktja43f5-8dea-4832-9eb2-36b1f8008e75",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "df9a349af2f1e1f52f2adaff8bf9d4dc",
+                          "qrEnabled": "false",
+                          "restaurant_id": "229849",
+                          "query": "all restaurants"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "441251",
+                        "name": "Sri rajadhani restaurant",
+                        "city": "3",
+                        "slugs": {
+                          "restaurant": "sri-rajadhani-restaurant-sangareddy-sangareddy",
+                          "city": "hyderabad"
+                        },
+                        "cloudinaryImageId": "kbbxyujacgb6zfklefuy",
+                        "address": "Lig 23,phase 2,sunday market road,pothireddy palli,sangareddy,502295",
+                        "locality": "2nd Phase",
+                        "areaName": "SangaReddy",
+                        "costForTwo": "40000",
+                        "costForTwoMessage": "₹400 FOR TWO",
+                        "cuisines": [
+                          "North Indian",
+                          "Biryani",
+                          "Chinese",
+                          "Hyderabadi",
+                          "Indian"
+                        ],
+                        "avgRating": 4.2,
+                        "feeDetails": {
+
+                        },
+                        "avgRatingString": "4.2",
+                        "totalRatingsString": "4.3K+",
+                        "sla": {
+                          "deliveryTime": 64,
+                          "minDeliveryTime": 60,
+                          "maxDeliveryTime": 65,
+                          "lastMileTravel": 11.7,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "60-65 MINS",
+                          "lastMileTravelString": "11.7 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextOpenTimeMessage": "Opens next at 12 noon, today",
+                          "restaurantClosedMeta": {
+                            "title": "CLOSED",
+                            "subtitle": "FOR NOW"
+                          }
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {
+
+                        },
+                        "unorderableMessage": "Opens next at 12 noon, today",
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "availabilityServiceabilityMessage": "Currently closed for delivery. Opens next at 12 noon, today",
+                        "orderabilityCommunication": {
+                          "title": {
+                            "text": "CURRENTLY"
+                          },
+                          "subTitle": {
+                            "text": "CLOSED"
+                          },
+                          "message": {
+                            "text": "Opens today at 12:00 PM",
+                            "textColour": "primary"
+                          },
+                          "customIcon": {
+                            "bgGradientColorStart": "#EB8322",
+                            "bgGradientColorEnd": "#EE5803"
+                          },
+                          "commsStyling": {
+
+                          }
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {
+
+                          },
+                          "presentation": {
+
+                          }
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"e3e6ec5f-68f6-5ad5-1838-47f31f328297\",\"grid\":\"cc80b310-afb9-46f7-b1cc-a5e80ccc7fd7\",\"queryUniqueId\":\"75309d6e-4968-271b-a29b-0e339530d0f3\",\"query\":\"all restaurants\"}",
+                        "objectValue": "441251",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "query": "all restaurants",
+                          "sourceSessionId": "ktja43f5-8dea-4832-9eb2-36b1f8008e75",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "df9a349af2f1e1f52f2adaff8bf9d4dc",
+                          "qrEnabled": "false",
+                          "restaurant_id": "441251"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "720003",
+                        "name": "Vantillu Restaurant",
+                        "city": "3",
+                        "slugs": {
+                          "restaurant": "vantillu-restaurant-sangareddy-sangareddy",
+                          "city": "hyderabad"
+                        },
+                        "cloudinaryImageId": "430f624c9a33c96632bf734c75f1c92b",
+                        "address": "Sy.No. 108, First Floor, Coral Complex,  P.R.Pally, Sangareddy (Urban), Sangareddy,  Telangana-502001",
+                        "locality": "P.R.Pally",
+                        "areaName": "SangaReddy",
+                        "costForTwo": "50000",
+                        "costForTwoMessage": "₹500 FOR TWO",
+                        "cuisines": [
+                          "Chinese",
+                          "Biryani",
+                          "Tandoor",
+                          "Seafood"
+                        ],
+                        "avgRating": 4,
+                        "feeDetails": {
+
+                        },
+                        "avgRatingString": "4.0",
+                        "totalRatingsString": "1.1K+",
+                        "sla": {
+                          "deliveryTime": 44,
+                          "minDeliveryTime": 40,
+                          "maxDeliveryTime": 45,
+                          "lastMileTravel": 11.5,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "40-45 MINS",
+                          "lastMileTravelString": "11.5 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextOpenTimeMessage": "Opens next at 12 noon, today",
+                          "restaurantClosedMeta": {
+                            "title": "CLOSED",
+                            "subtitle": "FOR NOW"
+                          }
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {
+
+                        },
+                        "unorderableMessage": "Opens next at 12 noon, today",
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_4",
+                        "availabilityServiceabilityMessage": "Currently closed for delivery. Opens next at 12 noon, today",
+                        "orderabilityCommunication": {
+                          "title": {
+                            "text": "CURRENTLY"
+                          },
+                          "subTitle": {
+                            "text": "CLOSED"
+                          },
+                          "message": {
+                            "text": "Opens today at 12:00 PM",
+                            "textColour": "primary"
+                          },
+                          "customIcon": {
+                            "bgGradientColorStart": "#EB8322",
+                            "bgGradientColorEnd": "#EE5803"
+                          },
+                          "commsStyling": {
+
+                          }
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {
+
+                          },
+                          "presentation": {
+
+                          }
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"e3e6ec5f-68f6-5ad5-1838-47f31f328297\",\"grid\":\"cc80b310-afb9-46f7-b1cc-a5e80ccc7fd7\",\"queryUniqueId\":\"75309d6e-4968-271b-a29b-0e339530d0f3\",\"query\":\"all restaurants\"}",
+                        "objectValue": "720003",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "restaurant_id": "720003",
+                          "query": "all restaurants",
+                          "sourceSessionId": "ktja43f5-8dea-4832-9eb2-36b1f8008e75",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "df9a349af2f1e1f52f2adaff8bf9d4dc",
+                          "qrEnabled": "false"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "560762",
+                        "name": "KFC",
+                        "city": "3",
+                        "slugs": {
+                          "restaurant": "kfc-sanga-reddy-sangareddy",
+                          "city": "hyderabad"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/03daee63-6f30-41b4-902f-e6fa9baab5c9_560762.JPG",
+                        "address": "Ground floor, Sangareddy mainroad,Hyderabad.",
+                        "locality": "Sangareddy Area",
+                        "areaName": "Sanga Reddy",
+                        "costForTwo": "40000",
+                        "costForTwoMessage": "₹400 FOR TWO",
+                        "cuisines": [
+                          "Burgers",
+                          "Fast Food",
+                          "Rolls & Wraps"
+                        ],
+                        "avgRating": 3.8,
+                        "feeDetails": {
+
+                        },
+                        "avgRatingString": "3.8",
+                        "totalRatingsString": "3.4K+",
+                        "sla": {
+                          "deliveryTime": 44,
+                          "minDeliveryTime": 40,
+                          "maxDeliveryTime": 45,
+                          "lastMileTravel": 11.7,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "40-45 MINS",
+                          "lastMileTravelString": "11.7 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextOpenTimeMessage": "Opens next at 11 am, today",
+                          "restaurantClosedMeta": {
+                            "title": "CLOSED",
+                            "subtitle": "FOR NOW"
+                          }
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {
+                          "imageBadges": [
+                            {
+                              "imageId": "Rxawards/_CATEGORY-Burger.png",
+                              "description": "Delivery!"
+                            }
+                          ]
+                        },
+                        "unorderableMessage": "Opens next at 11 am, today",
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_4",
+                        "availabilityServiceabilityMessage": "Currently closed for delivery. Opens next at 11 am, today",
+                        "orderabilityCommunication": {
+                          "title": {
+                            "text": "CURRENTLY"
+                          },
+                          "subTitle": {
+                            "text": "CLOSED"
+                          },
+                          "message": {
+                            "text": "Opens today at 11:00 AM",
+                            "textColour": "primary"
+                          },
+                          "customIcon": {
+                            "bgGradientColorStart": "#EB8322",
+                            "bgGradientColorEnd": "#EE5803"
+                          },
+                          "commsStyling": {
+
+                          }
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {
+
+                          },
+                          "presentation": {
+
+                          }
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"e3e6ec5f-68f6-5ad5-1838-47f31f328297\",\"grid\":\"cc80b310-afb9-46f7-b1cc-a5e80ccc7fd7\",\"queryUniqueId\":\"75309d6e-4968-271b-a29b-0e339530d0f3\",\"query\":\"all restaurants\"}",
+                        "objectValue": "560762",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "df9a349af2f1e1f52f2adaff8bf9d4dc",
+                          "qrEnabled": "false",
+                          "restaurant_id": "560762",
+                          "query": "all restaurants",
+                          "sourceSessionId": "ktja43f5-8dea-4832-9eb2-36b1f8008e75"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "1031433",
+                        "name": "Aadhya Family Restaurant",
+                        "city": "3",
+                        "slugs": {
+                          "restaurant": "aadhya-family-restaurant-sangareddy-sangareddy-2",
+                          "city": "hyderabad"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/14/4f25e1f5-fbfe-4cbe-b079-aa27a9735727_1031433.jpg",
+                        "address": "Shop No : 5-16 , Floor : 1 , mig-91,hno-5-16 Sangareddy , ",
+                        "locality": "SangaReddy",
+                        "areaName": "SangaReddy",
+                        "costForTwo": "30000",
+                        "costForTwoMessage": "₹300 FOR TWO",
+                        "cuisines": [
+                          "Indian",
+                          "Chinese",
+                          "Tandoori"
+                        ],
+                        "avgRating": 4,
+                        "feeDetails": {
+
+                        },
+                        "avgRatingString": "4.0",
+                        "totalRatingsString": "103",
+                        "sla": {
+                          "deliveryTime": 59,
+                          "minDeliveryTime": 55,
+                          "maxDeliveryTime": 60,
+                          "lastMileTravel": 12.3,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "55-60 MINS",
+                          "lastMileTravelString": "12.3 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextOpenTimeMessage": "Opens next at 12 noon, today",
+                          "restaurantClosedMeta": {
+                            "title": "CLOSED",
+                            "subtitle": "FOR NOW"
+                          }
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {
+
+                        },
+                        "sld": true,
+                        "unorderableMessage": "Opens next at 12 noon, today",
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_4",
+                        "availabilityServiceabilityMessage": "Currently closed for delivery. Opens next at 12 noon, today",
+                        "orderabilityCommunication": {
+                          "title": {
+                            "text": "CURRENTLY"
+                          },
+                          "subTitle": {
+                            "text": "CLOSED"
+                          },
+                          "message": {
+                            "text": "Opens today at 12:00 PM",
+                            "textColour": "primary"
+                          },
+                          "customIcon": {
+                            "bgGradientColorStart": "#EB8322",
+                            "bgGradientColorEnd": "#EE5803"
+                          },
+                          "commsStyling": {
+
+                          }
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {
+
+                          },
+                          "presentation": {
+
+                          }
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"e3e6ec5f-68f6-5ad5-1838-47f31f328297\",\"grid\":\"cc80b310-afb9-46f7-b1cc-a5e80ccc7fd7\",\"queryUniqueId\":\"75309d6e-4968-271b-a29b-0e339530d0f3\",\"query\":\"all restaurants\"}",
+                        "objectValue": "1031433",
+                        "impressionObjectName": "impression-restaurant-sld",
+                        "clickObjectName": "click-restaurant-sld"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "restaurant_id": "1031433",
+                          "query": "all restaurants",
+                          "sourceSessionId": "ktja43f5-8dea-4832-9eb2-36b1f8008e75",
+                          "source": "SEARCH",
+                          "isSld": "true",
+                          "sourceRequestId": "df9a349af2f1e1f52f2adaff8bf9d4dc",
+                          "qrEnabled": "false"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "456686",
+                        "name": "Methukuseema Restaurant",
+                        "city": "3",
+                        "slugs": {
+                          "restaurant": "methukuseema-restaurant-patancheru-patancheru",
+                          "city": "hyderabad"
+                        },
+                        "cloudinaryImageId": "d9iaw0xaupwnx2cvum6x",
+                        "address": "6-90/4,Muthangi,Patanchervu,Sanagreddy,Telanagana -502300",
+                        "locality": "Patanchervu",
+                        "areaName": "Patancheru",
+                        "costForTwo": "20000",
+                        "costForTwoMessage": "₹200 FOR TWO",
+                        "cuisines": [
+                          "South Indian",
+                          "North Indian",
+                          "Indian",
+                          "Tandoor",
+                          "Beverages"
+                        ],
+                        "avgRating": 3.9,
+                        "feeDetails": {
+
+                        },
+                        "avgRatingString": "3.9",
+                        "totalRatingsString": "1.1K+",
+                        "sla": {
+                          "deliveryTime": 38,
+                          "minDeliveryTime": 35,
+                          "maxDeliveryTime": 40,
+                          "lastMileTravel": 8.9,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "35-40 MINS",
+                          "lastMileTravelString": "8.9 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextOpenTimeMessage": "Opens next at 11 am, today",
+                          "restaurantClosedMeta": {
+                            "title": "CLOSED",
+                            "subtitle": "FOR NOW"
+                          }
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {
+
+                        },
+                        "unorderableMessage": "Opens next at 11 am, today",
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_4",
+                        "availabilityServiceabilityMessage": "Currently closed for delivery. Opens next at 11 am, today",
+                        "orderabilityCommunication": {
+                          "title": {
+                            "text": "CURRENTLY"
+                          },
+                          "subTitle": {
+                            "text": "CLOSED"
+                          },
+                          "message": {
+                            "text": "Opens today at 11:00 AM",
+                            "textColour": "primary"
+                          },
+                          "customIcon": {
+                            "bgGradientColorStart": "#EB8322",
+                            "bgGradientColorEnd": "#EE5803"
+                          },
+                          "commsStyling": {
+
+                          }
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {
+
+                          },
+                          "presentation": {
+
+                          }
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"e3e6ec5f-68f6-5ad5-1838-47f31f328297\",\"grid\":\"cc80b310-afb9-46f7-b1cc-a5e80ccc7fd7\",\"queryUniqueId\":\"75309d6e-4968-271b-a29b-0e339530d0f3\",\"query\":\"all restaurants\"}",
+                        "objectValue": "456686",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "query": "all restaurants",
+                          "sourceSessionId": "ktja43f5-8dea-4832-9eb2-36b1f8008e75",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "df9a349af2f1e1f52f2adaff8bf9d4dc",
+                          "qrEnabled": "false",
+                          "restaurant_id": "456686"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "1049975",
+                        "name": "AR Aroma Restaurant",
+                        "city": "3",
+                        "slugs": {
+                          "restaurant": "ar-aroma-restaurant-patancheru-patancheru",
+                          "city": "hyderabad"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/2/21/aa774fe1-b3fd-43ee-b615-d88b47d7b706_1049975.JPG",
+                        "address": "Plot No 277,278 and 279, Isnapur, Patancheru, Sangareddy ,Sangareddy (Urban),Sangareddy,Telangana-502307\t",
+                        "locality": "Patancheru",
+                        "areaName": "Patancheru",
+                        "costForTwo": "50000",
+                        "costForTwoMessage": "₹500 FOR TWO",
+                        "cuisines": [
+                          "Andhra",
+                          "South Indian",
+                          "Hyderabadi",
+                          "Indian",
+                          "Telangana"
+                        ],
+                        "avgRating": 4.2,
+                        "feeDetails": {
+
+                        },
+                        "avgRatingString": "4.2",
+                        "totalRatingsString": "57",
+                        "sla": {
+                          "deliveryTime": 45,
+                          "minDeliveryTime": 45,
+                          "maxDeliveryTime": 50,
+                          "lastMileTravel": 8.7,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "45-50 MINS",
+                          "lastMileTravelString": "8.7 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextOpenTimeMessage": "Opens next at 12 noon, today",
+                          "restaurantClosedMeta": {
+                            "title": "CLOSED",
+                            "subtitle": "FOR NOW"
+                          }
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {
+
+                        },
+                        "unorderableMessage": "Opens next at 12 noon, today",
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "availabilityServiceabilityMessage": "Currently closed for delivery. Opens next at 12 noon, today",
+                        "orderabilityCommunication": {
+                          "title": {
+                            "text": "CURRENTLY"
+                          },
+                          "subTitle": {
+                            "text": "CLOSED"
+                          },
+                          "message": {
+                            "text": "Opens today at 12:00 PM",
+                            "textColour": "primary"
+                          },
+                          "customIcon": {
+                            "bgGradientColorStart": "#EB8322",
+                            "bgGradientColorEnd": "#EE5803"
+                          },
+                          "commsStyling": {
+
+                          }
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {
+
+                          },
+                          "presentation": {
+
+                          }
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"e3e6ec5f-68f6-5ad5-1838-47f31f328297\",\"grid\":\"cc80b310-afb9-46f7-b1cc-a5e80ccc7fd7\",\"queryUniqueId\":\"75309d6e-4968-271b-a29b-0e339530d0f3\",\"query\":\"all restaurants\"}",
+                        "objectValue": "1049975",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "query": "all restaurants",
+                          "sourceSessionId": "ktja43f5-8dea-4832-9eb2-36b1f8008e75",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "df9a349af2f1e1f52f2adaff8bf9d4dc",
+                          "qrEnabled": "false",
+                          "restaurant_id": "1049975"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "628163",
+                        "name": "Sai Datta Restaurant",
+                        "city": "3",
+                        "slugs": {
+                          "restaurant": "sai-datta-restaurant-patancheru-patancheru",
+                          "city": "hyderabad"
+                        },
+                        "cloudinaryImageId": "ltcw08se94glmin3r19r",
+                        "address": "Rice Mill Rd, Muthangi, Hyderabad, Telangana 502300, India",
+                        "locality": "Muthangi",
+                        "areaName": "Patancheru",
+                        "costForTwo": "20000",
+                        "costForTwoMessage": "₹200 FOR TWO",
+                        "cuisines": [
+                          "North Indian",
+                          "Chinese",
+                          "Biryani"
+                        ],
+                        "avgRating": 3.8,
+                        "feeDetails": {
+
+                        },
+                        "avgRatingString": "3.8",
+                        "totalRatingsString": "342",
+                        "sla": {
+                          "deliveryTime": 33,
+                          "minDeliveryTime": 30,
+                          "maxDeliveryTime": 35,
+                          "lastMileTravel": 9.1,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "30-35 MINS",
+                          "lastMileTravelString": "9.1 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextOpenTimeMessage": "Opens next at 11 am, today",
+                          "restaurantClosedMeta": {
+                            "title": "CLOSED",
+                            "subtitle": "FOR NOW"
+                          }
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {
+
+                        },
+                        "unorderableMessage": "Opens next at 11 am, today",
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_4",
+                        "availabilityServiceabilityMessage": "Currently closed for delivery. Opens next at 11 am, today",
+                        "orderabilityCommunication": {
+                          "title": {
+                            "text": "CURRENTLY"
+                          },
+                          "subTitle": {
+                            "text": "CLOSED"
+                          },
+                          "message": {
+                            "text": "Opens today at 11:00 AM",
+                            "textColour": "primary"
+                          },
+                          "customIcon": {
+                            "bgGradientColorStart": "#EB8322",
+                            "bgGradientColorEnd": "#EE5803"
+                          },
+                          "commsStyling": {
+
+                          }
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {
+
+                          },
+                          "presentation": {
+
+                          }
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"e3e6ec5f-68f6-5ad5-1838-47f31f328297\",\"grid\":\"cc80b310-afb9-46f7-b1cc-a5e80ccc7fd7\",\"queryUniqueId\":\"75309d6e-4968-271b-a29b-0e339530d0f3\",\"query\":\"all restaurants\"}",
+                        "objectValue": "628163",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "qrEnabled": "false",
+                          "restaurant_id": "628163",
+                          "query": "all restaurants",
+                          "sourceSessionId": "ktja43f5-8dea-4832-9eb2-36b1f8008e75",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "df9a349af2f1e1f52f2adaff8bf9d4dc"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "947340",
+                        "name": "Mandi King All One",
+                        "city": "3",
+                        "slugs": {
+                          "restaurant": "mandi-king-all-one-sangareddy-sangareddy",
+                          "city": "hyderabad"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/26/10ef4fdc-ac1d-4b68-acb7-c5ccbb201b9e_947340.jpg",
+                        "address": "Plot no 2 syn 108B pothireddypally sangareddy ,,Sangareddy (Urban),Sangareddy,Telangana-502295\t",
+                        "locality": "pothireddypally",
+                        "areaName": "Sangareddy",
+                        "costForTwo": "40000",
+                        "costForTwoMessage": "₹400 FOR TWO",
+                        "cuisines": [
+                          "Desserts",
+                          "Arabian"
+                        ],
+                        "avgRating": 4.4,
+                        "feeDetails": {
+
+                        },
+                        "avgRatingString": "4.4",
+                        "totalRatingsString": "5",
+                        "sla": {
+                          "deliveryTime": 44,
+                          "minDeliveryTime": 40,
+                          "maxDeliveryTime": 45,
+                          "lastMileTravel": 11.5,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "40-45 MINS",
+                          "lastMileTravelString": "11.5 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextOpenTimeMessage": "Opens next at 11 am, today",
+                          "restaurantClosedMeta": {
+                            "title": "CLOSED",
+                            "subtitle": "FOR NOW"
+                          }
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {
+
+                        },
+                        "sld": true,
+                        "unorderableMessage": "Opens next at 11 am, today",
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "availabilityServiceabilityMessage": "Currently closed for delivery. Opens next at 11 am, today",
+                        "orderabilityCommunication": {
+                          "title": {
+                            "text": "CURRENTLY"
+                          },
+                          "subTitle": {
+                            "text": "CLOSED"
+                          },
+                          "message": {
+                            "text": "Opens today at 11:00 AM",
+                            "textColour": "primary"
+                          },
+                          "customIcon": {
+                            "bgGradientColorStart": "#EB8322",
+                            "bgGradientColorEnd": "#EE5803"
+                          },
+                          "commsStyling": {
+
+                          }
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {
+
+                          },
+                          "presentation": {
+
+                          }
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"e3e6ec5f-68f6-5ad5-1838-47f31f328297\",\"grid\":\"cc80b310-afb9-46f7-b1cc-a5e80ccc7fd7\",\"queryUniqueId\":\"75309d6e-4968-271b-a29b-0e339530d0f3\",\"query\":\"all restaurants\"}",
+                        "objectValue": "947340",
+                        "impressionObjectName": "impression-restaurant-sld",
+                        "clickObjectName": "click-restaurant-sld"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "restaurant_id": "947340",
+                          "query": "all restaurants",
+                          "sourceSessionId": "ktja43f5-8dea-4832-9eb2-36b1f8008e75",
+                          "source": "SEARCH",
+                          "isSld": "true",
+                          "sourceRequestId": "df9a349af2f1e1f52f2adaff8bf9d4dc",
+                          "qrEnabled": "false"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "102455",
+                        "name": "Pegs & Mugs Restaurant",
+                        "city": "3",
+                        "slugs": {
+                          "restaurant": "pegs-mugs-restaurant-sangareddy-sangareddy",
+                          "city": "hyderabad"
+                        },
+                        "cloudinaryImageId": "fwpulw9sngo8n6lk5dt0",
+                        "address": "D.NO.5-1-105/B/3,SIDDHARTHA NAGAR,SANGAREDDY",
+                        "areaName": "SIDDHARTHA NAGAR",
+                        "costForTwo": "35000",
+                        "costForTwoMessage": "₹350 FOR TWO",
+                        "cuisines": [
+                          "Biryani",
+                          "North Indian",
+                          "South Indian"
+                        ],
+                        "avgRating": 4.2,
+                        "feeDetails": {
+
+                        },
+                        "avgRatingString": "4.2",
+                        "totalRatingsString": "7.3K+",
+                        "sla": {
+                          "deliveryTime": 51,
+                          "minDeliveryTime": 50,
+                          "maxDeliveryTime": 55,
+                          "lastMileTravel": 12.2,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "50-55 MINS",
+                          "lastMileTravelString": "12.2 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextOpenTimeMessage": "Opens next at 12 noon, today",
+                          "restaurantClosedMeta": {
+                            "title": "CLOSED",
+                            "subtitle": "FOR NOW"
+                          }
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {
+
+                        },
+                        "unorderableMessage": "Opens next at 12 noon, today",
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "availabilityServiceabilityMessage": "Currently closed for delivery. Opens next at 12 noon, today",
+                        "orderabilityCommunication": {
+                          "title": {
+                            "text": "CURRENTLY"
+                          },
+                          "subTitle": {
+                            "text": "CLOSED"
+                          },
+                          "message": {
+                            "text": "Opens today at 12:00 PM",
+                            "textColour": "primary"
+                          },
+                          "customIcon": {
+                            "bgGradientColorStart": "#EB8322",
+                            "bgGradientColorEnd": "#EE5803"
+                          },
+                          "commsStyling": {
+
+                          }
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {
+
+                          },
+                          "presentation": {
+
+                          }
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"e3e6ec5f-68f6-5ad5-1838-47f31f328297\",\"grid\":\"cc80b310-afb9-46f7-b1cc-a5e80ccc7fd7\",\"queryUniqueId\":\"75309d6e-4968-271b-a29b-0e339530d0f3\",\"query\":\"all restaurants\"}",
+                        "objectValue": "102455",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "isSld": "false",
+                          "sourceRequestId": "df9a349af2f1e1f52f2adaff8bf9d4dc",
+                          "qrEnabled": "false",
+                          "restaurant_id": "102455",
+                          "query": "all restaurants",
+                          "sourceSessionId": "ktja43f5-8dea-4832-9eb2-36b1f8008e75",
+                          "source": "SEARCH"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "983938",
+                        "name": "LUCKY BAR & RESTAURANT",
+                        "city": "3",
+                        "slugs": {
+                          "restaurant": "lucky-bar-&-restaurant-patancheru-patancheru",
+                          "city": "hyderabad"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/30/bcc1deaf-9e8b-4416-bf6d-3d2de4400a14_983938.jpg",
+                        "address": "Shop No : PLOT NO. 192, S , Floor :  , MUTHANGI GP  PATANCHERU, Sangareddy (Urban), , ",
+                        "locality": "Patancheru",
+                        "areaName": "Patancheru",
+                        "costForTwo": "40000",
+                        "costForTwoMessage": "₹400 FOR TWO",
+                        "cuisines": [
+                          "Biryani",
+                          "South Indian"
+                        ],
+                        "avgRating": 4.4,
+                        "feeDetails": {
+
+                        },
+                        "avgRatingString": "4.4",
+                        "totalRatingsString": "25",
+                        "sla": {
+                          "deliveryTime": 37,
+                          "minDeliveryTime": 35,
+                          "maxDeliveryTime": 40,
+                          "lastMileTravel": 9.9,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "35-40 MINS",
+                          "lastMileTravelString": "9.9 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextOpenTimeMessage": "Opens next at 12 noon, today",
+                          "restaurantClosedMeta": {
+                            "title": "CLOSED",
+                            "subtitle": "FOR NOW"
+                          }
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {
+
+                        },
+                        "unorderableMessage": "Opens next at 12 noon, today",
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "availabilityServiceabilityMessage": "Currently closed for delivery. Opens next at 12 noon, today",
+                        "orderabilityCommunication": {
+                          "title": {
+                            "text": "CURRENTLY"
+                          },
+                          "subTitle": {
+                            "text": "CLOSED"
+                          },
+                          "message": {
+                            "text": "Opens today at 12:00 PM",
+                            "textColour": "primary"
+                          },
+                          "customIcon": {
+                            "bgGradientColorStart": "#EB8322",
+                            "bgGradientColorEnd": "#EE5803"
+                          },
+                          "commsStyling": {
+
+                          }
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {
+
+                          },
+                          "presentation": {
+
+                          }
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"e3e6ec5f-68f6-5ad5-1838-47f31f328297\",\"grid\":\"cc80b310-afb9-46f7-b1cc-a5e80ccc7fd7\",\"queryUniqueId\":\"75309d6e-4968-271b-a29b-0e339530d0f3\",\"query\":\"all restaurants\"}",
+                        "objectValue": "983938",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "query": "all restaurants",
+                          "sourceSessionId": "ktja43f5-8dea-4832-9eb2-36b1f8008e75",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "df9a349af2f1e1f52f2adaff8bf9d4dc",
+                          "qrEnabled": "false",
+                          "restaurant_id": "983938"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "947426",
+                        "name": "Prince Chinisi Restaurant",
+                        "city": "3",
+                        "slugs": {
+                          "restaurant": "prince-chinisi-restaurant-sangareddy-sangareddy",
+                          "city": "hyderabad"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/26/e5f03916-b8cf-4377-975c-43f59d7141b4_947426.JPG",
+                        "address": "Plot no 2 syn 108B pothireddypally sangareddy, Sangareddy (Urban), Sangareddy, Telangana - 502295",
+                        "locality": "pothireddypally",
+                        "areaName": "SangaReddy",
+                        "costForTwo": "40000",
+                        "costForTwoMessage": "₹400 FOR TWO",
+                        "cuisines": [
+                          "Chinese",
+                          "Fast Food"
+                        ],
+                        "feeDetails": {
+
+                        },
+                        "avgRatingString": "--",
+                        "sla": {
+                          "deliveryTime": 44,
+                          "minDeliveryTime": 40,
+                          "maxDeliveryTime": 45,
+                          "lastMileTravel": 11.5,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "40-45 MINS",
+                          "lastMileTravelString": "11.5 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextOpenTimeMessage": "Opens next at 11 am, today",
+                          "restaurantClosedMeta": {
+                            "title": "CLOSED",
+                            "subtitle": "FOR NOW"
+                          }
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {
+
+                        },
+                        "sld": true,
+                        "unorderableMessage": "Opens next at 11 am, today",
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "availabilityServiceabilityMessage": "Currently closed for delivery. Opens next at 11 am, today",
+                        "orderabilityCommunication": {
+                          "title": {
+                            "text": "CURRENTLY"
+                          },
+                          "subTitle": {
+                            "text": "CLOSED"
+                          },
+                          "message": {
+                            "text": "Opens today at 11:00 AM",
+                            "textColour": "primary"
+                          },
+                          "customIcon": {
+                            "bgGradientColorStart": "#EB8322",
+                            "bgGradientColorEnd": "#EE5803"
+                          },
+                          "commsStyling": {
+
+                          }
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {
+
+                          },
+                          "presentation": {
+
+                          }
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"e3e6ec5f-68f6-5ad5-1838-47f31f328297\",\"grid\":\"cc80b310-afb9-46f7-b1cc-a5e80ccc7fd7\",\"queryUniqueId\":\"75309d6e-4968-271b-a29b-0e339530d0f3\",\"query\":\"all restaurants\"}",
+                        "objectValue": "947426",
+                        "impressionObjectName": "impression-restaurant-sld",
+                        "clickObjectName": "click-restaurant-sld"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "isSld": "true",
+                          "sourceRequestId": "df9a349af2f1e1f52f2adaff8bf9d4dc",
+                          "qrEnabled": "false",
+                          "restaurant_id": "947426",
+                          "query": "all restaurants",
+                          "sourceSessionId": "ktja43f5-8dea-4832-9eb2-36b1f8008e75",
+                          "source": "SEARCH"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "837714",
+                        "name": "Drunken Monkey",
+                        "city": "3",
+                        "slugs": {
+                          "restaurant": "drunken-monkey-sangareddy-sangareddy",
+                          "city": "hyderabad"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/9/420d2f54-8998-4db1-8ce3-2fedca4e6084_837714.jpg",
+                        "address": "Shop No : Plot no-96, , Floor :  , Sy no 203/2,opp.sunrise hospital , Pothreddipalle, Telangana, India 502001",
+                        "locality": "Pothreddipalle",
+                        "areaName": "SangaReddy",
+                        "costForTwo": "25000",
+                        "costForTwoMessage": "₹250 FOR TWO",
+                        "cuisines": [
+                          "Healthy Food",
+                          "Burgers",
+                          "Cafe"
+                        ],
+                        "avgRating": 4.2,
+                        "feeDetails": {
+
+                        },
+                        "avgRatingString": "4.2",
+                        "totalRatingsString": "167",
+                        "sla": {
+                          "deliveryTime": 56,
+                          "minDeliveryTime": 55,
+                          "maxDeliveryTime": 60,
+                          "lastMileTravel": 12.2,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "55-60 MINS",
+                          "lastMileTravelString": "12.2 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextOpenTimeMessage": "Opens next at 10 am, today",
+                          "restaurantClosedMeta": {
+                            "title": "CLOSED",
+                            "subtitle": "FOR NOW"
+                          }
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {
+
+                        },
+                        "sld": true,
+                        "unorderableMessage": "Opens next at 10 am, today",
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "availabilityServiceabilityMessage": "Currently closed for delivery. Opens next at 10 am, today",
+                        "orderabilityCommunication": {
+                          "title": {
+                            "text": "CURRENTLY"
+                          },
+                          "subTitle": {
+                            "text": "CLOSED"
+                          },
+                          "message": {
+                            "text": "Opens today at 10:00 AM",
+                            "textColour": "primary"
+                          },
+                          "customIcon": {
+                            "bgGradientColorStart": "#EB8322",
+                            "bgGradientColorEnd": "#EE5803"
+                          },
+                          "commsStyling": {
+
+                          }
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {
+
+                          },
+                          "presentation": {
+
+                          }
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"e3e6ec5f-68f6-5ad5-1838-47f31f328297\",\"grid\":\"cc80b310-afb9-46f7-b1cc-a5e80ccc7fd7\",\"queryUniqueId\":\"75309d6e-4968-271b-a29b-0e339530d0f3\",\"query\":\"all restaurants\"}",
+                        "objectValue": "837714",
+                        "impressionObjectName": "impression-restaurant-sld",
+                        "clickObjectName": "click-restaurant-sld"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "restaurant_id": "837714",
+                          "query": "all restaurants",
+                          "sourceSessionId": "ktja43f5-8dea-4832-9eb2-36b1f8008e75",
+                          "source": "SEARCH",
+                          "isSld": "true",
+                          "sourceRequestId": "df9a349af2f1e1f52f2adaff8bf9d4dc",
+                          "qrEnabled": "false"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "947821",
+                        "name": "Shah Authentic Chinese Restaurant",
+                        "city": "3",
+                        "slugs": {
+                          "restaurant": "shah-authentic-chinese-restaurant-sangareddy-sangareddy",
+                          "city": "hyderabad"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/26/29ddc093-e134-41fe-bb43-2dfa344d861a_947821.jpg",
+                        "address": "Shop No : PNO.2,SY NO:129 , Floor :  , POTHIREDDYPALLY , Sangareddy , ",
+                        "locality": "SangaReddy",
+                        "areaName": "SangaReddy",
+                        "costForTwo": "40000",
+                        "costForTwoMessage": "₹400 FOR TWO",
+                        "cuisines": [
+                          "Chinese",
+                          "Biryani",
+                          "Mughlai"
+                        ],
+                        "feeDetails": {
+
+                        },
+                        "avgRatingString": "--",
+                        "sla": {
+                          "deliveryTime": 44,
+                          "minDeliveryTime": 40,
+                          "maxDeliveryTime": 45,
+                          "lastMileTravel": 11.4,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "40-45 MINS",
+                          "lastMileTravelString": "11.4 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextOpenTimeMessage": "Opens next at 11 am, today",
+                          "restaurantClosedMeta": {
+                            "title": "CLOSED",
+                            "subtitle": "FOR NOW"
+                          }
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {
+
+                        },
+                        "sld": true,
+                        "unorderableMessage": "Opens next at 11 am, today",
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "availabilityServiceabilityMessage": "Currently closed for delivery. Opens next at 11 am, today",
+                        "orderabilityCommunication": {
+                          "title": {
+                            "text": "CURRENTLY"
+                          },
+                          "subTitle": {
+                            "text": "CLOSED"
+                          },
+                          "message": {
+                            "text": "Opens today at 11:00 AM",
+                            "textColour": "primary"
+                          },
+                          "customIcon": {
+                            "bgGradientColorStart": "#EB8322",
+                            "bgGradientColorEnd": "#EE5803"
+                          },
+                          "commsStyling": {
+
+                          }
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {
+
+                          },
+                          "presentation": {
+
+                          }
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"e3e6ec5f-68f6-5ad5-1838-47f31f328297\",\"grid\":\"cc80b310-afb9-46f7-b1cc-a5e80ccc7fd7\",\"queryUniqueId\":\"75309d6e-4968-271b-a29b-0e339530d0f3\",\"query\":\"all restaurants\"}",
+                        "objectValue": "947821",
+                        "impressionObjectName": "impression-restaurant-sld",
+                        "clickObjectName": "click-restaurant-sld"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "sourceSessionId": "ktja43f5-8dea-4832-9eb2-36b1f8008e75",
+                          "source": "SEARCH",
+                          "isSld": "true",
+                          "sourceRequestId": "df9a349af2f1e1f52f2adaff8bf9d4dc",
+                          "qrEnabled": "false",
+                          "restaurant_id": "947821",
+                          "query": "all restaurants"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "509571",
+                        "name": "Thug Life Restaurant",
+                        "city": "3",
+                        "slugs": {
+                          "restaurant": "thug-life-restaurant-sangareddy-sangareddy",
+                          "city": "hyderabad"
+                        },
+                        "cloudinaryImageId": "pwty1m6fz5ppmacgsbec",
+                        "address": "H3RM+2RP, Pothreddipalle, Telangana 502285, India",
+                        "locality": "Pothreddipalle",
+                        "areaName": "SangaReddy",
+                        "costForTwo": "40000",
+                        "costForTwoMessage": "₹400 FOR TWO",
+                        "cuisines": [
+                          "Chinese",
+                          "North Indian",
+                          "South Indian",
+                          "Hyderabadi",
+                          "Tandoor",
+                          "Kebabs"
+                        ],
+                        "avgRating": 3.9,
+                        "feeDetails": {
+
+                        },
+                        "avgRatingString": "3.9",
+                        "totalRatingsString": "1.2K+",
+                        "sla": {
+                          "deliveryTime": 56,
+                          "minDeliveryTime": 55,
+                          "maxDeliveryTime": 60,
+                          "lastMileTravel": 11.5,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "55-60 MINS",
+                          "lastMileTravelString": "11.5 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "restaurantClosedMeta": {
+                            "title": "CLOSED",
+                            "subtitle": "TEMPORARILY"
+                          }
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {
+
+                        },
+                        "unorderableMessage": "Temporarily closed for delivery",
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_4",
+                        "availabilityServiceabilityMessage": "Temporarily closed for delivery",
+                        "orderabilityCommunication": {
+                          "title": {
+                            "text": "CURRENTLY"
+                          },
+                          "subTitle": {
+                            "text": "CLOSED"
+                          },
+                          "message": {
+                            "text": "Outlet not accepting orders at the moment",
+                            "textColour": "primary"
+                          },
+                          "customIcon": {
+                            "bgGradientColorStart": "#EB8322",
+                            "bgGradientColorEnd": "#EE5803"
+                          },
+                          "commsStyling": {
+
+                          }
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {
+
+                          },
+                          "presentation": {
+
+                          }
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"e3e6ec5f-68f6-5ad5-1838-47f31f328297\",\"grid\":\"cc80b310-afb9-46f7-b1cc-a5e80ccc7fd7\",\"queryUniqueId\":\"75309d6e-4968-271b-a29b-0e339530d0f3\",\"query\":\"all restaurants\"}",
+                        "objectValue": "509571",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "sourceRequestId": "df9a349af2f1e1f52f2adaff8bf9d4dc",
+                          "qrEnabled": "false",
+                          "restaurant_id": "509571",
+                          "query": "all restaurants",
+                          "sourceSessionId": "ktja43f5-8dea-4832-9eb2-36b1f8008e75",
+                          "source": "SEARCH",
+                          "isSld": "false"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "216979",
+                        "name": "Colour Ice Creams",
+                        "city": "3",
+                        "slugs": {
+                          "restaurant": "n-cream-stone-patancheru-patancheru",
+                          "city": "hyderabad"
+                        },
+                        "cloudinaryImageId": "l2cq6efwjrodzaz6mybt",
+                        "address": "Nh9, Mumbai Highway, Sangareddy, Patancheru, Hyderabad",
+                        "locality": "Patancheru",
+                        "areaName": "Muthangi",
+                        "costForTwo": "15000",
+                        "costForTwoMessage": "₹150 FOR TWO",
+                        "cuisines": [
+                          "Desserts",
+                          "Ice Cream",
+                          "Beverages"
+                        ],
+                        "avgRating": 4,
+                        "feeDetails": {
+
+                        },
+                        "avgRatingString": "4.0",
+                        "totalRatingsString": "1.2K+",
+                        "sla": {
+                          "deliveryTime": 44,
+                          "minDeliveryTime": 40,
+                          "maxDeliveryTime": 45,
+                          "lastMileTravel": 9,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "40-45 MINS",
+                          "lastMileTravelString": "9.0 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextOpenTimeMessage": "Opens next at 11 am, today",
+                          "restaurantClosedMeta": {
+                            "title": "CLOSED",
+                            "subtitle": "FOR NOW"
+                          }
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {
+
+                        },
+                        "unorderableMessage": "Opens next at 11 am, today",
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_4",
+                        "availabilityServiceabilityMessage": "Currently closed for delivery. Opens next at 11 am, today",
+                        "orderabilityCommunication": {
+                          "title": {
+                            "text": "CURRENTLY"
+                          },
+                          "subTitle": {
+                            "text": "CLOSED"
+                          },
+                          "message": {
+                            "text": "Opens today at 11:00 AM",
+                            "textColour": "primary"
+                          },
+                          "customIcon": {
+                            "bgGradientColorStart": "#EB8322",
+                            "bgGradientColorEnd": "#EE5803"
+                          },
+                          "commsStyling": {
+
+                          }
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {
+
+                          },
+                          "presentation": {
+
+                          }
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"e3e6ec5f-68f6-5ad5-1838-47f31f328297\",\"grid\":\"cc80b310-afb9-46f7-b1cc-a5e80ccc7fd7\",\"queryUniqueId\":\"75309d6e-4968-271b-a29b-0e339530d0f3\",\"query\":\"all restaurants\"}",
+                        "objectValue": "216979",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "df9a349af2f1e1f52f2adaff8bf9d4dc",
+                          "qrEnabled": "false",
+                          "restaurant_id": "216979",
+                          "query": "all restaurants",
+                          "sourceSessionId": "ktja43f5-8dea-4832-9eb2-36b1f8008e75"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+  }
+}
+
+
+];
+
+   
+
+export default resList;
